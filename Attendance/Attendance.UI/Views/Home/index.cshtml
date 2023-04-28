@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewData["Title"] = "index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="d-flex justify-content-around align-items-center">
+    
+    <div>
+        <h4>
+            آپلود فایل ورودی
+        </h4>
+    <form>
+    <input type="file" id="File"/>
+    <button type="button" class="btn btn-success" onclick="uploadFile()">submit</button>
+    </form>
+
+    </div>
+
+    <div>
+        @if (ViewBag.RecordCount > 0 && ViewBag.UserCount > 0)
+        {
+        <a href="@Url.Action("downloadReport","home")" class="btn btn-info">دانلود گزارش</a>
+        }else{
+            <h4 class="text-danger">
+                دیتایی وجود ندارد
+            </h4>
+        }
+
+    </div>
+
+</div>
+
+
+@section Scripts {
+    <script type="text/javascript">
+    function uploadFile(){
+            var myFormData = new FormData();
+
+            let fileInput = $("#File")[0];
+            let file = fileInput.files[0];
+            console.log(file);
+            if (file != null) {
+                myFormData.append("File", file, file.name);
+            }
+
+            ﻿  $.ajax({
+                type: "POST",
+                processData: false,
+                contentType: false,
+                cache: false,
+                url: '@Url.Action("UploadRecord", "Home")',
+                data: myFormData,
+                enctype: 'multipart/form-data',
+                success: function (data) {
+                    alert(data);
+                },
+                error: function (data) {
+                    alert("مشکلی بوجود آمده است");
+                }
+              });
+    }
+    </script>
+}

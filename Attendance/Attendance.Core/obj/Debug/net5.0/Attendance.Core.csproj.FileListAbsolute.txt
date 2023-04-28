@@ -1,0 +1,15 @@
+C:\Users\pouya\OneDrive\Desktop\Attendance System\Attendance\Attendance.Core\bin\Debug\net5.0\Attendance.Core.deps.json
+C:\Users\pouya\OneDrive\Desktop\Attendance System\Attendance\Attendance.Core\bin\Debug\net5.0\Attendance.Core.runtimeconfig.json
+C:\Users\pouya\OneDrive\Desktop\Attendance System\Attendance\Attendance.Core\bin\Debug\net5.0\Attendance.Core.runtimeconfig.dev.json
+C:\Users\pouya\OneDrive\Desktop\Attendance System\Attendance\Attendance.Core\bin\Debug\net5.0\Attendance.Core.dll
+C:\Users\pouya\OneDrive\Desktop\Attendance System\Attendance\Attendance.Core\bin\Debug\net5.0\Attendance.Core.pdb
+C:\Users\pouya\OneDrive\Desktop\Attendance System\Attendance\Attendance.Core\obj\Debug\net5.0\Attendance.Core.csproj.AssemblyReference.cache
+C:\Users\pouya\OneDrive\Desktop\Attendance System\Attendance\Attendance.Core\obj\Debug\net5.0\Attendance.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pouya\OneDrive\Desktop\Attendance System\Attendance\Attendance.Core\obj\Debug\net5.0\Attendance.Core.AssemblyInfoInputs.cache
+C:\Users\pouya\OneDrive\Desktop\Attendance System\Attendance\Attendance.Core\obj\Debug\net5.0\Attendance.Core.AssemblyInfo.cs
+C:\Users\pouya\OneDrive\Desktop\Attendance System\Attendance\Attendance.Core\obj\Debug\net5.0\Attendance.Core.csproj.CoreCompileInputs.cache
+C:\Users\pouya\OneDrive\Desktop\Attendance System\Attendance\Attendance.Core\obj\Debug\net5.0\Attendance.Core.dll
+C:\Users\pouya\OneDrive\Desktop\Attendance System\Attendance\Attendance.Core\obj\Debug\net5.0\refint\Attendance.Core.dll
+C:\Users\pouya\OneDrive\Desktop\Attendance System\Attendance\Attendance.Core\obj\Debug\net5.0\Attendance.Core.pdb
+C:\Users\pouya\OneDrive\Desktop\Attendance System\Attendance\Attendance.Core\obj\Debug\net5.0\Attendance.Core.genruntimeconfig.cache
+C:\Users\pouya\OneDrive\Desktop\Attendance System\Attendance\Attendance.Core\obj\Debug\net5.0\ref\Attendance.Core.dll
